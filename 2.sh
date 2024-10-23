@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-##First create disks, download repo into w01, download exam scripts,s send to s01, run script,
+##First create disks, download repo into w01, download exam scripts,s send to s01,partition disks, run script, complete final steps.
 #cd ~/Downloads
 #wget https://csunix.mohawkcollege.ca/~long/courses/LinAdmin/util/fresh_check.zip#
 #wget https://csunix.mohawkcollege.ca/~long/courses/LinAdmin/test1/host_info_t1.zip#
@@ -28,6 +28,7 @@ sudo groupadd web
 
 sudo usermod -aG web andy
 sudo usermod -aG web amita
+#sudo fdisk -l#
 #sudo fdisk /dev/sdb1#
 #sudo fdisk /dev/sdc1#
 
