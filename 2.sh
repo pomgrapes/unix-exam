@@ -1,6 +1,6 @@
 
 #!/bin/bash
-
+###chmod +x ./2.sh###
 ##First create disks, download repo into w01, download exam scripts,s send to s01,partition disks, run script, complete final steps.
 #cd ~/Downloads
 #wget https://csunix.mohawkcollege.ca/~long/courses/LinAdmin/util/fresh_check.zip#
@@ -49,8 +49,8 @@ sudo systemctl enable httpd
 sudo systemctl start httpd
 echo "Amita and Andy" | sudo tee /var/www/html/index.html
 echo "Apache done and webpage done don't forget to install WGET!!!!!"
-#wget https://csunix.mohawkcollege.ca/~long/courses/LinAdmin/wget/wget-1.19.5-10.e18.x86_64.rpm#
-#scp wget-1.19.5-10.e18.x86_64.rpm root@10.1.1.20:/root/#
+#wget https://csunix.mohawkcollege.ca/~long/courses/LinAdmin/wget/wget-1.19.5-10.el8.x86_64.rpm#
+#scp wget-1.19.5-10.el8.x86_64.rpm root@10.1.1.20:/root/#
 #ssh root@10.1.1.20#
 #yum localinstall -y /root/wget-1.19.5-10.e18.x86_64.rpm
 #sudo nano /etc/cron.d/web#
