@@ -52,7 +52,7 @@ echo "Apache done and webpage done don't forget to install WGET!!!!!"
 #wget https://csunix.mohawkcollege.ca/~long/courses/LinAdmin/wget/wget-1.19.5-10.el8.x86_64.rpm#
 #scp wget-1.19.5-10.el8.x86_64.rpm root@10.1.1.20:/root/#
 #ssh root@10.1.1.20#
-#yum localinstall -y /root/wget-1.19.5-10.e18.x86_64.rpm
+#yum localinstall -y /root/wget-1.19.5-10.e18.x86_64.rpm#
 #sudo nano /etc/cron.d/web#
 #30 23 * * * root /usr/sbin/systemctl stop httpd#
 #00 07 * * * root /usr/sbin/systemctl start httpd#
